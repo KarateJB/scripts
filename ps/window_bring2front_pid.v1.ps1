@@ -1,3 +1,4 @@
+# v1: not works on cmd.exe. cmd.exe does have a console window, but it is not treated as a normal GUI main window — so PowerShell usually sees MainWindowHandle as 0.
 param ([int]$processId)
 
 Add-Type @"
